@@ -1,8 +1,10 @@
 {
-  "hash": "c678167b09bfdc25bbea6e36f2284240",
+  "hash": "be75455605418697cafe1a65f3f38235",
   "result": {
-    "markdown": "---\ntitle: \"Violet's Guide to DnD Statistics\"\n---\n\n\nWelcome to Violet's Guide to DnD Statistics.\n\n<https://github.com/vyltmusic/NM2207>\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Violet's Guide to DnD 5e Character Statistics\"\n---\n\n\nWelcome to Violet's Guide to DnD 5e Character Statistics.\n\n<https://github.com/vyltmusic/NM2207>\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

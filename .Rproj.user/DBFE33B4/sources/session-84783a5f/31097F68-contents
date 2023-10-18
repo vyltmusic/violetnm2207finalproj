@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Violet's Guide To DnD Statistics"
+  title: "Violet's Guide To DnD 5e Character Statistics"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - data.qmd
+     # - data.qmd
       
 
 format:

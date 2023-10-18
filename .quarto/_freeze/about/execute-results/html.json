@@ -1,10 +1,8 @@
 {
-  "hash": "43daa057d155aa899a778364365ac1b4",
+  "hash": "80f23508720fd74d949dc6e9c51033de",
   "result": {
-    "markdown": "---\ntitle: \"About\"\n---\n\n\nHello :)\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [
-      "about_files"
-    ],
+    "markdown": "---\ntitle: \"About\"\n---\n\n\n# hello :)\n\nmy name is violet yang juan hun :) i like dnd :)\n\nI'm a Year 2 Psychology major! I have been playing DnD 5e for two years now. DnD 5e is a very statistics-heavy game full of number-crunching, so I think it's the perfect topic for statistical analysis!\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
