@@ -3,12 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "vyltmusic.github.io"
+  title: "Violet's Guide To DnD Statistics"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - data.qmd
+      
 
 format:
   html:

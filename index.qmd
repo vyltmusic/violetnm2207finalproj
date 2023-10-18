@@ -1,11 +1,11 @@
 ---
-title: "vyltmusic.github.io"
+title: "Violet's Guide to DnD Statistics"
 ---
 
-This is a Quarto website.
+Welcome to Violet's Guide to DnD Statistics.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<https://github.com/vyltmusic/NM2207>
 
 ```{r}
-1 + 1
+
 ```

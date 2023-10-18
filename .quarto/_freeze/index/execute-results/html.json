@@ -1,7 +1,7 @@
 {
-  "hash": "8da0f2e89e2ca6bf4dc64c1416d96b37",
+  "hash": "c678167b09bfdc25bbea6e36f2284240",
   "result": {
-    "markdown": "---\ntitle: \"vyltmusic.github.io\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Violet's Guide to DnD Statistics\"\n---\n\n\nWelcome to Violet's Guide to DnD Statistics.\n\n<https://github.com/vyltmusic/NM2207>\n\n\n::: {.cell}\n\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
