@@ -2,9 +2,9 @@
 title: "Violet's Guide to DnD 5e Character Statistics"
 ---
 
-Welcome to Violet's Guide to DnD 5e Character Statistics.
+Welcome to Violet's Guide to DnD 5e Statistics.
 
-<https://github.com/vyltmusic/NM2207>
+Stay tuned for more updates!
 
 ```{r}
 

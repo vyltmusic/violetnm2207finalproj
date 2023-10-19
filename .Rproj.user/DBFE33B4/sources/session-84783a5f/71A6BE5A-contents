@@ -1,12 +1,17 @@
 ---
 title: "About"
+about:
+  template: jolla
+  image: DSC_2566.png
+  links:
+    - icon: linktree
+      text: my linktree!
+      href: https://linktr.ee/vyltmusic
 ---
 
 # hello :)
 
-my name is violet yang juan hun :) i like dnd :)
-
-I'm a Year 2 Psychology major! I have been playing DnD 5e for two years now. DnD 5e is a very statistics-heavy game full of number-crunching, so I think it's the perfect topic for statistical analysis!
+My name is Violet Yang Juan Hun, and I'm a Year 2 Psychology major! I have been playing DnD 5e for two years now. DnD 5e is a very statistics-heavy game full of number-crunching, so I think it's the perfect topic for statistical analysis!
 
 ```{r}
 
