@@ -16,9 +16,9 @@
   {
     "objectID": "data.html",
     "href": "data.html",
-    "title": "Data",
+    "title": "Statistics Visualization",
     "section": "",
-    "text": "library(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.2.3\n\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\n\nWarning: package 'tibble' was built under R version 4.2.1\n\n\nWarning: package 'tidyr' was built under R version 4.2.3\n\n\nWarning: package 'readr' was built under R version 4.2.3\n\n\nWarning: package 'purrr' was built under R version 4.2.2\n\n\nWarning: package 'dplyr' was built under R version 4.2.2\n\n\nWarning: package 'stringr' was built under R version 4.2.2\n\n\nWarning: package 'forcats' was built under R version 4.2.3\n\n\nWarning: package 'lubridate' was built under R version 4.2.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.0     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.1.8\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(dnddata)\ncolnames(dnd_chars_unique)\n\n [1] \"ip\"                 \"finger\"             \"hash\"              \n [4] \"name\"               \"race\"               \"background\"        \n [7] \"date\"               \"class\"              \"justClass\"         \n[10] \"subclass\"           \"level\"              \"feats\"             \n[13] \"HP\"                 \"AC\"                 \"Str\"               \n[16] \"Dex\"                \"Con\"                \"Int\"               \n[19] \"Wis\"                \"Cha\"                \"alignment\"         \n[22] \"skills\"             \"weapons\"            \"spells\"            \n[25] \"castingStat\"        \"choices\"            \"country\"           \n[28] \"countryCode\"        \"processedAlignment\" \"good\"              \n[31] \"lawful\"             \"processedRace\"      \"processedSpells\"   \n[34] \"processedWeapons\"   \"alias\""
+    "text": "lorem ipsum\n&lt;iframe height=\"400\" width=\"100%\" frameborder=\"no\" src=\"https://violetnm2207finalproj.shinyapps.io/App-DnD/\"&gt; &lt;/iframe&gt;\n\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum\n\n\n\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum"
   },
   {
     "objectID": "journal.html",
@@ -26,5 +26,19 @@
     "title": "Journal",
     "section": "",
     "text": "Follow my endeavors into learning data visualization in NM2207!\nMy Github: https://github.com/vyltmusic/NM2207"
+  },
+  {
+    "objectID": "data.html#faq",
+    "href": "data.html#faq",
+    "title": "Statistics Visualization",
+    "section": "",
+    "text": "lorem ipsum\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum"
+  },
+  {
+    "objectID": "data.html#discussion",
+    "href": "data.html#discussion",
+    "title": "Statistics Visualization",
+    "section": "",
+    "text": "lorem ipsum\n\n\n\nlorem ipsum"
   }
 ]

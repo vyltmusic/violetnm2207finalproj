@@ -1,9 +1,0 @@
----
-title: "Data"
----
-
-```{r}
-library(tidyverse)
-library(dnddata)
-colnames(dnd_chars_unique)
-```
