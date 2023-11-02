@@ -1,0 +1,5 @@
+"0","dnd_chars_unique_edited[[input$class]]
+"
+"2","Error in (function(x, i, exact) if (is.matrix(i)) as.matrix(x)[[i]] else .subset2(x,  : 
+  object 'input' not found
+"

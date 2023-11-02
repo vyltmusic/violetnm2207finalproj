@@ -1,0 +1,6 @@
+"0","    paste(""Frequency of "", ""input$stat"", "" values between levels "",""input$min_level"","" and "",""input$max_level"", sep="""")
+"
+"1","[1]"
+"1"," ""Frequency of input$stat values between levels input$min_level and input$max_level"""
+"1","
+"
