@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Violet's Guide To DnD 5e Character Statistics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - journal.qmd
+      - data.qmd
+      
+
+format:
+  html:
+    theme: vapor
+    css: styles.css
+    toc: true
+
+editor: visual
+
