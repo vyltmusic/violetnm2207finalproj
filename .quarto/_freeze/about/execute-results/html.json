@@ -1,8 +1,10 @@
 {
-  "hash": "b66aceeb7487394cdd10bd19a379584f",
+  "hash": "6dbc2e1f26c05608e2f0ef879b1441d2",
   "result": {
-    "markdown": "---\ntitle: \"About\"\nabout:\n  template: jolla\n  image: DSC_2566.png\n  links:\n    - icon: linktree\n      text: my linktree!\n      href: https://linktr.ee/vyltmusic\n---\n\n\n# hello :)\n\nMy name is Violet Yang Juan Hun, and I'm a Year 2 Psychology major! I have been playing DnD 5e for two years now. DnD 5e is a very statistics-heavy game full of number-crunching, so I think it's the perfect topic for statistical analysis!\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"About\"\nabout:\n  template: jolla\n  image: DSC_2566.png\n  links:\n    - icon: linktree\n      text: my linktree!\n      href: https://linktr.ee/vyltmusic\n---\n\n\n# hello :)\n\nMy name is Violet Yang, and I'm a Year 2 Psychology major! I have been playing DnD 5e for two years now. DnD 5e is a very statistics-heavy game full of number-crunching, so I think it's the perfect topic for statistical analysis!\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "about_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
