@@ -1,0 +1,59 @@
+---
+title: "FAQ"
+---
+
+## Frequently Asked Questions
+
+### *DnD Statistics VS Descriptive Statistics*
+
+A distinction in terminology is needed on this website. We refer to the term 'statistics' in two contexts:
+
+#### *- DnD Statistics* 
+
+'DnD Statistics' refers to specific variable values in a player's character sheet. The ones we will be focusing on in this website are:
+
+-   **HP**: Hit points. This determines how much damage a character can take before being 'downed'.
+
+-   **AC:** Armor class. This determines how difficult it is for an enemy to hit the character with an attack.
+
+-   **Str:** Strength score. This determines how effective a character is at strength-related skills and actions, including how well they attack with certain types of strength-based weapons.
+
+-   **Dex:** Dexterity score. This determines how effective a character is at dexterity-related skills and actions, including how well they attack with certain types of dexterity-based weapons. A character's Dex also determines how fast they act in turn order during combat, and sometimes affects their AC as well.
+
+-   **Con:** Constitution score. This determines how effective a character is at resisting health-related effects, as well as how much HP a character has.
+
+-   **Int:** Intelligence score. This determines how effective a character is at intelligence-related skills and actions. It also determines how effective a character is at casting spells, if they are playing an intelligence-based spellcasting class.
+
+-   **Wis:** Wisdom score. This determines how effective a character is at wisdom-related skills and actions. It also determines how effective a character is at casting spells, if they are playing a wisdom-based spellcasting class.
+
+-   **Cha:** Charisma score. This determines how effective a character is at charisma-related skills and actions. It also determines how effective a character is at casting spells, if they are playing a wisdom-based spellcasting class.
+
+#### *- Descriptive Statistics*
+
+'Descriptive Statistics' refer to the statistics of data itself -- specifically statistical values that help 'describe' a dataset. Examples of descriptive statistics include the following:
+
+-   **Mean:** a
+
+-   **Median:** a
+
+-   **Mode:** a
+
+-   **Quartiles:** a
+
+-   **Interquartile Range:** a
+
+-   **Outliers:** a
+
+### *How to interpret a bar plot*
+
+lorem ipsum
+
+### *How to interpret a histogram*
+
+lorem ipsum
+
+## References
+
+<https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291>
+
+<https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm#:~:text=Definition%20of%20outliers,what%20will%20be%20considered%20abnormal.>

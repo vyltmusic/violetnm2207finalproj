@@ -2,7 +2,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
     "text": "hello :)\nMy name is Violet Yang, and I’m a Year 2 Psychology major! I have been playing DnD 5e for two years now. DnD 5e is a very statistics-heavy game full of number-crunching, so I think it’s the perfect topic for statistical analysis!"
   },
@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "Violet’s Guide to DnD 5e Character Statistics",
     "section": "",
-    "text": "Welcome to Violet’s Guide to DnD 5e Character Statistics! Here, you will lorem ipsum"
+    "text": "Welcome to Violet’s Guide to DnD 5e Character Statistics!\nAre you a new player getting into DnD 5e? Having trouble creating your first ever character? Well, perhaps this website will be of use to you!"
   },
   {
     "objectID": "data.html",
     "href": "data.html",
     "title": "Statistics Visualization",
     "section": "",
-    "text": "lorem ipsum\n\n\n\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum\n\n\n\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum"
+    "text": "This is a data visualizer for the statistics of a sample of approximately 8,000 DnD 5e players’ characters. Select what kind of characters you wish to analyse data for by adjusting the settings on the panel on the left! You can also adjust some settings of the data visualization itself, such as adjusting\n\n\n\n\n\n\n\nPlaying around with this interactive visualizer, you can discover\n\n\n\nlorem ipsum\n\n\n\n\nhttps://arcaneeye.com/dm-tools-5e/what-are-the-tiers-of-play-in-dd/"
   },
   {
     "objectID": "journal.html",
@@ -39,14 +39,14 @@
     "href": "data.html#discussion",
     "title": "Statistics Visualization",
     "section": "",
-    "text": "lorem ipsum\n\n\n\nlorem ipsum"
+    "text": "Playing around with this interactive visualizer, you can discover\n\n\n\nlorem ipsum"
   },
   {
     "objectID": "index.html#what-is-dnd-5e",
     "href": "index.html#what-is-dnd-5e",
     "title": "Violet’s Guide to DnD 5e Character Statistics",
     "section": "What is DnD 5e?",
-    "text": "What is DnD 5e?\nlorem ipsum"
+    "text": "What is DnD 5e?\nDnD 5e stands for ‘Dungeons and Dragons, Fifth Edition’, a tabletop role-playing game. Players roleplay as characters that they create, rolling dice to determine the success of actions they take and adding bonuses to their rolls determined by the statistics of their characters."
   },
   {
     "objectID": "index.html#basics-of-statistics",
@@ -54,5 +54,61 @@
     "title": "Violet’s Guide to DnD 5e Character Statistics",
     "section": "Basics of statistics",
     "text": "Basics of statistics\nlorem ipsum"
+  },
+  {
+    "objectID": "data.html#interactive-data-visualizer",
+    "href": "data.html#interactive-data-visualizer",
+    "title": "Statistics Visualization",
+    "section": "",
+    "text": "This is a data visualizer for the statistics of a sample of approximately 8,000 DnD 5e players’ characters. Select what kind of characters you wish to analyse data for by adjusting the settings on the panel on the left! You can also adjust some settings of the data visualization itself, such as adjusting"
+  },
+  {
+    "objectID": "data.html#references",
+    "href": "data.html#references",
+    "title": "Statistics Visualization",
+    "section": "",
+    "text": "https://arcaneeye.com/dm-tools-5e/what-are-the-tiers-of-play-in-dd/"
+  },
+  {
+    "objectID": "index.html#character-creation-in-dnd-5e",
+    "href": "index.html#character-creation-in-dnd-5e",
+    "title": "Violet’s Guide to DnD 5e Character Statistics",
+    "section": "Character Creation in DnD 5e",
+    "text": "Character Creation in DnD 5e\nIn DnD 5e, players create a character that they will roleplay as, using a system with specific rules to construct such a character with certain choices, such as the character’s class and race, or how good or bad they are at six specific abilities: their strength, dexterity, constitution, intelligence, wisdom and charisma.\nWhile this is a very simplified summary, the reality is that creating a DnD 5e character can be a complicated and daunting process due to all the possibilities, especially for a new player. Some players may want to know what the general trends of DnD statistics tend to be for certain ‘character builds’ that they intend to play - a term for specific combinations of general character creation choices, often focused on class. An example is the ‘Sorlock’, a term for a popular character build involving levels in both the Sorcerer and Warlock classes."
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Violet’s Guide to DnD 5e Character Statistics",
+    "section": "References",
+    "text": "References\nhttps://www.dndbeyond.com/how-to-play-dnd"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "A distinction in terminology is needed on this website. We refer to the term ‘statistics’ in two contexts:\n\n\n‘DnD Statistics’ refers to specific variable values in a player’s character sheet. The ones we will be focusing on in this website are:\n\nHP: Hit points. This determines how much damage a character can take before being ‘downed’.\nAC: Armor class. This determines how difficult it is for an enemy to hit the character with an attack.\nStr: Strength score. This determines how effective a character is at strength-related skills and actions, including how well they attack with certain types of strength-based weapons.\nDex: Dexterity score. This determines how effective a character is at dexterity-related skills and actions, including how well they attack with certain types of dexterity-based weapons. A character’s Dex also determines how fast they act in turn order during combat, and sometimes affects their AC as well.\nCon: Constitution score. This determines how effective a character is at resisting health-related effects, as well as how much HP a character has.\nInt: Intelligence score. This determines how effective a character is at intelligence-related skills and actions. It also determines how effective a character is at casting spells, if they are playing an intelligence-based spellcasting class.\nWis: Wisdom score. This determines how effective a character is at wisdom-related skills and actions. It also determines how effective a character is at casting spells, if they are playing a wisdom-based spellcasting class.\nCha: Charisma score. This determines how effective a character is at charisma-related skills and actions. It also determines how effective a character is at casting spells, if they are playing a wisdom-based spellcasting class.\n\n\n\n\n‘Descriptive Statistics’ refer to the statistics of data itself – specifically statistical values that help ‘describe’ a dataset. Examples of descriptive statistics include the following:\n\nMean: a\nMedian: a\nMode: a\nQuartiles: a\nInterquartile Range: a\nOutliers: a\n\n\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum"
+  },
+  {
+    "objectID": "faq.html#frequently-asked-questions",
+    "href": "faq.html#frequently-asked-questions",
+    "title": "FAQ",
+    "section": "",
+    "text": "A distinction in terminology is needed on this website. We refer to the term ‘statistics’ in two contexts:\n\n\n‘DnD Statistics’ refers to specific variable values in a player’s character sheet. The ones we will be focusing on in this website are:\n\nHP: Hit points. This determines how much damage a character can take before being ‘downed’.\nAC: Armor class. This determines how difficult it is for an enemy to hit the character with an attack.\nStr: Strength score. This determines how effective a character is at strength-related skills and actions, including how well they attack with certain types of strength-based weapons.\nDex: Dexterity score. This determines how effective a character is at dexterity-related skills and actions, including how well they attack with certain types of dexterity-based weapons. A character’s Dex also determines how fast they act in turn order during combat, and sometimes affects their AC as well.\nCon: Constitution score. This determines how effective a character is at resisting health-related effects, as well as how much HP a character has.\nInt: Intelligence score. This determines how effective a character is at intelligence-related skills and actions. It also determines how effective a character is at casting spells, if they are playing an intelligence-based spellcasting class.\nWis: Wisdom score. This determines how effective a character is at wisdom-related skills and actions. It also determines how effective a character is at casting spells, if they are playing a wisdom-based spellcasting class.\nCha: Charisma score. This determines how effective a character is at charisma-related skills and actions. It also determines how effective a character is at casting spells, if they are playing a wisdom-based spellcasting class.\n\n\n\n\n‘Descriptive Statistics’ refer to the statistics of data itself – specifically statistical values that help ‘describe’ a dataset. Examples of descriptive statistics include the following:\n\nMean: a\nMedian: a\nMode: a\nQuartiles: a\nInterquartile Range: a\nOutliers: a\n\n\n\n\n\nlorem ipsum\n\n\n\nlorem ipsum"
+  },
+  {
+    "objectID": "faq.html#references",
+    "href": "faq.html#references",
+    "title": "FAQ",
+    "section": "References",
+    "text": "References\nhttps://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291\nhttps://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm#:~:text=Definition%20of%20outliers,what%20will%20be%20considered%20abnormal."
+  },
+  {
+    "objectID": "index.html#statistics-of-particular-dnd-5e-character-builds-at-certain-levels",
+    "href": "index.html#statistics-of-particular-dnd-5e-character-builds-at-certain-levels",
+    "title": "Violet’s Guide to DnD 5e Character Statistics",
+    "section": "Statistics of Particular DnD 5e Character Builds at Certain Levels",
+    "text": "Statistics of Particular DnD 5e Character Builds at Certain Levels\nBy knowing the general trends of how other players develop their characters’ DnD statistics, a"
   }
 ]
