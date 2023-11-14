@@ -1,0 +1,44 @@
+---
+title: "Code-Along 8 + Challenge 8"
+author: "Yang Juan Hun"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, eval=TRUE,echo=TRUE}
+# Invoke the package
+library(shiny)
+# Run an example from the library
+#runExample("01_hello")
+```
+
+```{r, out.height= "525px",out.width= "350px",echo=FALSE,eval=TRUE,fig.cap=" "} 
+knitr::include_graphics("helloshiny.jpg")
+```
+
+```{r, eval=TRUE,echo=TRUE}
+#running custom app
+#library(shiny)
+#runApp("App-1", display.mode = "showcase")
+```
+
+```{r, out.height= "525px",out.width= "350px",echo=FALSE,eval=TRUE,fig.cap=" "} 
+knitr::include_graphics("myshinyapp.jpg")
+```
+
+```{r, eval=TRUE,echo=TRUE}
+library(shiny)
+#runApp("App-2", display.mode = "showcase")
+```
+
+```{r, out.height= "525px",out.width= "350px",echo=FALSE,eval=TRUE,fig.cap="my custom app :))"} 
+knitr::include_graphics("customapp.jpg")
+```
+
+I changed the reactivity example of Shiny by editing the texts in the sidebar panel, the texts in the main panel and also adding images. I changed some fonts as well.

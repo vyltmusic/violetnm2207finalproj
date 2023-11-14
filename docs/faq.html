@@ -120,8 +120,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link active" data-scroll-target="#frequently-asked-questions">Frequently Asked Questions</a>
   <ul class="collapse">
   <li><a href="#dnd-statistics-vs-descriptive-statistics" id="toc-dnd-statistics-vs-descriptive-statistics" class="nav-link" data-scroll-target="#dnd-statistics-vs-descriptive-statistics"><em>DnD Statistics VS Descriptive Statistics</em></a></li>
-  <li><a href="#how-to-interpret-a-bar-plot" id="toc-how-to-interpret-a-bar-plot" class="nav-link" data-scroll-target="#how-to-interpret-a-bar-plot"><em>How to interpret a bar plot</em></a></li>
-  <li><a href="#how-to-interpret-a-histogram" id="toc-how-to-interpret-a-histogram" class="nav-link" data-scroll-target="#how-to-interpret-a-histogram"><em>How to interpret a histogram</em></a></li>
+  <li><a href="#how-to-interpret-a-bar-graph" id="toc-how-to-interpret-a-bar-graph" class="nav-link" data-scroll-target="#how-to-interpret-a-bar-graph"><em>How to Interpret a Bar Graph</em></a></li>
+  <li><a href="#how-to-interpret-a-histogram" id="toc-how-to-interpret-a-histogram" class="nav-link" data-scroll-target="#how-to-interpret-a-histogram"><em>How to Interpret a Histogram</em></a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="dnd-statistics-vs-descriptive-statistics"><em>DnD Statistics VS Descriptive Statistics</em></h3>
 <p>A distinction in terminology is needed on this website. We refer to the term ‘statistics’ in two contexts:</p>
 <section id="dnd-statistics" class="level4">
-<h4 class="anchored" data-anchor-id="dnd-statistics"><em>- DnD Statistics</em></h4>
+<h4 class="anchored" data-anchor-id="dnd-statistics">- <u>DnD Statistics</u></h4>
 <p>‘DnD Statistics’ refers to specific variable values in a player’s character sheet. The ones we will be focusing on in this website are:</p>
 <ul>
 <li><p><strong>HP</strong>: Hit points. This determines how much damage a character can take before being ‘downed’.</p></li>
@@ -167,31 +167,36 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="descriptive-statistics" class="level4">
-<h4 class="anchored" data-anchor-id="descriptive-statistics"><em>- Descriptive Statistics</em></h4>
+<h4 class="anchored" data-anchor-id="descriptive-statistics">- <u>Descriptive Statistics</u></h4>
 <p>‘Descriptive Statistics’ refer to the statistics of data itself – specifically statistical values that help ‘describe’ a dataset. Examples of descriptive statistics include the following:</p>
 <ul>
-<li><p><strong>Mean:</strong> a</p></li>
-<li><p><strong>Median:</strong> a</p></li>
-<li><p><strong>Mode:</strong> a</p></li>
-<li><p><strong>Quartiles:</strong> a</p></li>
-<li><p><strong>Interquartile Range:</strong> a</p></li>
-<li><p><strong>Outliers:</strong> a</p></li>
+<li><p><strong>Mean:</strong> The average value of a numerical dataset. Calculated by dividing the sum of the entire dataset by its sample size.</p></li>
+<li><p><strong>Median:</strong> The middle-point value of a numerical dataset. Calculated by arranging the entire dataset in either ascending or descending order, then taking either the middlemost value, or the average of the two middlemost values if the dataset total is even.</p></li>
+<li><p><strong>Mode:</strong> The most frequently-occurring value of a dataset.</p></li>
+<li><p><strong>Quartiles:</strong> Values that evenly divide a numerical dataset into quarters. Calculated similarly to a median, except you take the 25%, 50% and 75% point values or average of two values, giving you the first, second and third quartile, AKA Q1, Q2 and Q3 respectively. The second quartile (the 50% point value) is equal to the median.</p></li>
+<li><p><strong>Interquartile Range (IQR):</strong> The range between the first quartile and third quartile. Calculated by subtracting Q1 from Q3.</p></li>
+<li><p><strong>Outliers:</strong> Values in a dataset that lie very far from the rest of the data. A high outlier is calculated by checking if its value is less than Q1 - [scaling factor] * IQR, while a low outlier is calculated by checking if its value is greater than Q3 + [scaling factor] * IQR.</p>
+<ul>
+<li>A scaling factor of 1.5 is used to detect mild outliers, while a scaling factor of 3 is used to detect extreme outliers.</li>
+</ul></li>
 </ul>
 </section>
 </section>
-<section id="how-to-interpret-a-bar-plot" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-interpret-a-bar-plot"><em>How to interpret a bar plot</em></h3>
-<p>lorem ipsum</p>
+<section id="how-to-interpret-a-bar-graph" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-interpret-a-bar-graph"><em>How to Interpret a Bar Graph</em></h3>
+<p>A bar graph is a fairly straightforward way to visualize data with categorical variables – variables that are organized by discrete categories, as opposed to numerical values. Typically, the x-axis of a bar graph represents the categorical variable of interest, and the y-axis represents the numerical values of a variable for each category. However, bar graphs can also be used for discrete numerical variables, as is the case in this website when we are looking at DnD statistics.</p>
 </section>
 <section id="how-to-interpret-a-histogram" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-interpret-a-histogram"><em>How to interpret a histogram</em></h3>
-<p>lorem ipsum</p>
+<h3 class="anchored" data-anchor-id="how-to-interpret-a-histogram"><em>How to Interpret a Histogram</em></h3>
+<p>A histogram is very similar to a bar graph, however it’s main difference is its use of ‘bins’. A single bar of a histogram covers all values within a ‘bin’ on the x-axis, not just a singular value. This is especially useful for datasets where the x-axis variable covers a very wide range of values, making data hard to interpret if viewed with a normal bar graph. In the context of the data visualizer for this website, you may wish to use a histogram instead of a bar graph when looking at samples with over three thousand observations, so as to make it easier to view the shape of the distribution and its peaks.</p>
 </section>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <p><a href="https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291" class="uri">https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291</a></p>
 <p><a href="https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm#:~:text=Definition%20of%20outliers,what%20will%20be%20considered%20abnormal." class="uri">https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm#:~:text=Definition%20of%20outliers,what%20will%20be%20considered%20abnormal.</a></p>
+<p><a href="https://chartio.com/learn/charts/bar-chart-complete-guide/" class="uri">https://chartio.com/learn/charts/bar-chart-complete-guide/</a></p>
+<p><a href="https://chartio.com/learn/charts/histogram-complete-guide/" class="uri">https://chartio.com/learn/charts/histogram-complete-guide/</a></p>
 
 
 </section>

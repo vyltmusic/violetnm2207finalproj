@@ -122,8 +122,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#interactive-data-visualizer" id="toc-interactive-data-visualizer" class="nav-link" data-scroll-target="#interactive-data-visualizer">Interactive Data Visualizer</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
   <ul class="collapse">
-  <li><a href="#findings-and-patterns" id="toc-findings-and-patterns" class="nav-link" data-scroll-target="#findings-and-patterns"><em>Findings and patterns</em></a></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><em>Conclusions</em></a></li>
+  <li><a href="#dnd-statistics-of-fighters" id="toc-dnd-statistics-of-fighters" class="nav-link" data-scroll-target="#dnd-statistics-of-fighters"><em>DnD Statistics of Fighters</em></a></li>
+  <li><a href="#summary-statistics-of-fighter-ability-scores" id="toc-summary-statistics-of-fighter-ability-scores" class="nav-link" data-scroll-target="#summary-statistics-of-fighter-ability-scores"><em>Summary Statistics of Fighter Ability Scores</em></a></li>
+  <li><a href="#trends-at-higher-levels-of-gameplay" id="toc-trends-at-higher-levels-of-gameplay" class="nav-link" data-scroll-target="#trends-at-higher-levels-of-gameplay"><em>Trends at Higher Levels of Gameplay</em></a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
@@ -154,24 +155,43 @@ ul.task-list li input[type="checkbox"] {
 <h1><strong>DnD 5e Statistics Visualization</strong></h1>
 <section id="interactive-data-visualizer" class="level2">
 <h2 class="anchored" data-anchor-id="interactive-data-visualizer">Interactive Data Visualizer</h2>
-<p>This is a data visualizer for the statistics of a sample of approximately 8,000 DnD 5e players’ characters. Select what kind of characters you wish to analyse data for by adjusting the settings on the panel on the left! You can also adjust some settings of the data visualization itself, such as adjusting</p>
+<p>This is a data visualizer for the statistics of a sample of approximately 8,000 DnD 5e players’ characters. Select what kind of characters you wish to analyse data for by adjusting the settings on the panel on the left! You can also adjust some settings of the data visualization itself, such as whether you’d like to view a bar graph or histogram, or how sensitive the outlier detection should be!</p>
 <p><iframe height="800" width="100%" frameborder="no" src="https://violetnm2207finalproj.shinyapps.io/App-DnD/" <="" p="">
 </iframe>
 </p></section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
-<section id="findings-and-patterns" class="level3">
-<h3 class="anchored" data-anchor-id="findings-and-patterns"><em>Findings and patterns</em></h3>
-<p>Playing around with this interactive visualizer, you can discover</p>
+<p>Playing around with the interactive visualizer above, you can discover certain findings about the distribution of statistics for different DnD characters. For one, Fighters are by far the most popular class choice in the dataset with the highest observation count of 1144, making up almost 14% of the entire sample size.</p>
+<p>Let’s imagine, for example, that you are a new player looking to play as a Fighter in a level 5 campaign. In the visualizer settings, you can select only the Fighter Class, select ‘Show characters with only the selected classes’ and set both the minimum and maximum level to 5. You’ll notice that even with an IQR scaling factor of 3, no outliers are detected, so don’t worry about that setting.</p>
+<section id="dnd-statistics-of-fighters" class="level3">
+<h3 class="anchored" data-anchor-id="dnd-statistics-of-fighters"><em>DnD Statistics of Fighters</em></h3>
+<p>Now, let’s look at the statistics of this sample! Try switching between the different DnD stats. You will notice that different DnD statistics can have different distributions.</p>
+<p>For example, Strength scores tend to be skewed to the right, implying that Fighters tend to be biased towards high Strength scores.</p>
+<p>Dexterity scores are more multimodal – there are multiple notable peaks in the distribution. This suggests that there are perhaps multiple different play-styles for Fighters with varying focus on Dexterity.</p>
+<p>Intelligence scores, meanwhile, seems slightly skewed to the left. This might suggest that Fighters tend towards lower Intelligence scores, which is funny given the popular and rather humorous stereotype that Fighters typically aren’t very bright!</p>
 </section>
-<section id="conclusions" class="level3">
-<h3 class="anchored" data-anchor-id="conclusions"><em>Conclusions</em></h3>
-<p>lorem ipsum</p>
+<section id="summary-statistics-of-fighter-ability-scores" class="level3">
+<h3 class="anchored" data-anchor-id="summary-statistics-of-fighter-ability-scores"><em>Summary Statistics of Fighter Ability Scores</em></h3>
+<p>Here is a second data visualizer looking specifically at Fighters from the dataset, and how the means, medians and modes (see FAQ) of their six core ability scores compare to each other at varying tiers of gameplay. Gameplay tiers in DnD 5e are split into Tier 1 (levels 1 - 4), Tier 2 (levels 5 - 10), Tier 3 (levels 11 - 16) and Tier 4 (levels 17 - 20) due to the way DnD 5e gameplay progression is nonlinear.</p>
+<p><iframe height="800" width="100%" frameborder="no" src="https://violetnm2207finalproj.shinyapps.io/App-DnD2/" <="" p="">
+</iframe>
+</p><p>To analyse the context of a Fighter in a level 5 campaign, you can select ‘No’ for including multiclass fighters, select the ‘Median’ summary statistic (a more accurate summary statistic for skewed datasets) and then set the gameplay tier to ‘Tier 2’.</p>
+<p>From the generated bar graph, you can more clearly see that generally, fighters invest more into their Strength, Dexterity and Constitution (typically more combat-oriented statistics) than their Intelligence, Wisdom and Charisma (typically more roleplay-oriented statistics). This is not particularly surprising, and indeed it further supports the Fighter stereotype – at least for Tier 2, their Intelligence on average is their lowest ability score!</p>
+<p>What is even more interesting, however, is the comparison between the average Strength and Dexterity scores for Fighters. Strength is typically more invested in for character builds focused on close-range combat with melee weapons, whereas Dexterity is more invested in for character builds focused on long-distance combat with ranged weapons. These are two play-styles that, on paper, Fighters can be equally effective in. The data however suggests that Fighter players are biased towards close-quarters combat, as Tier 2 Fighters have a median Strength score of 18 and a median Dexterity score of 14. A new player torn between the two play-styles could thus take this data into consideration. Perhaps close-quarters Fighters are more popular because that sort of play-style is generally more fun!</p>
+</section>
+<section id="trends-at-higher-levels-of-gameplay" class="level3">
+<h3 class="anchored" data-anchor-id="trends-at-higher-levels-of-gameplay"><em>Trends at Higher Levels of Gameplay</em></h3>
+<p>Creating a character for a certain campaign’s level is just fine as is, but let’s say you know that the campaign that you’re joining is intended to be a long-term one that will span many levels, maybe going into different gameplay tiers eventually. You could also take this into account when using the data visualizers provided on this website!</p>
+<p>Try changing the tiers of the second data visualizer and compare the difference in Fighter ability score medians across different gameplay tiers. You may notice that, unsurprisingly, the medians of the ability scores generally go up with higher tiers. However, a closer look reveals that not all ability scores increase at the same rate. Strength, Dexterity and Constitution, the scores that we’ve established as more combat-oriented, increase at greater rates than Intelligence, Wisdom and Charisma, the roleplay-oriented scores. In fact, between Tiers 2 and 3, the median scores of Intelligence, Wisdom and Charisma for Fighters do not even change at all, and the median Intelligence score remains the exact same at 11 across all four tiers!</p>
+<p>This can provide insight into how character progression may play out in terms of statistics across levels. You can design your character with these future statistical progressions in mind, for instance planning to choose specific features that compliment certain ability scores when you reach higher levels that grant you access to such choices.</p>
 </section>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <p><a href="https://arcaneeye.com/dm-tools-5e/what-are-the-tiers-of-play-in-dd/" class="uri">https://arcaneeye.com/dm-tools-5e/what-are-the-tiers-of-play-in-dd/</a></p>
+<p><a href="https://www.dndbeyond.com/classes/fighter" class="uri">https://www.dndbeyond.com/classes/fighter</a></p>
+<p><a href="https://www.statisticshowto.com/probability-and-statistics/skewed-distribution/" class="uri">https://www.statisticshowto.com/probability-and-statistics/skewed-distribution/</a></p>
+<p><a href="https://www.statisticshowto.com/multimodal-distribution/" class="uri">https://www.statisticshowto.com/multimodal-distribution/</a></p>
 
 
 </section>
