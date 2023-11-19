@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Violet’s Guide To DnD 5e Character Statistics - Statistics Visualization</title>
+<title>Violet’s Guide To DnD 5e Character Statistics - DnD 5e Statistics Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,16 +86,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About Me</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./data.html" rel="" target="" aria-current="page">
- <span class="menu-text">Statistics Visualization</span></a>
+ <span class="menu-text">Data Visualizer</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./faq.html" rel="" target="">
  <span class="menu-text">FAQ</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./journal.html" rel="" target="">
@@ -117,9 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dnd-5e-statistics-visualization" id="toc-dnd-5e-statistics-visualization" class="nav-link active" data-scroll-target="#dnd-5e-statistics-visualization"><strong>DnD 5e Statistics Visualization</strong></a>
-  <ul class="collapse">
-  <li><a href="#interactive-data-visualizer" id="toc-interactive-data-visualizer" class="nav-link" data-scroll-target="#interactive-data-visualizer">Interactive Data Visualizer</a></li>
+  <li><a href="#interactive-data-visualizer" id="toc-interactive-data-visualizer" class="nav-link active" data-scroll-target="#interactive-data-visualizer">Interactive Data Visualizer</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
   <ul class="collapse">
   <li><a href="#dnd-statistics-of-fighters" id="toc-dnd-statistics-of-fighters" class="nav-link" data-scroll-target="#dnd-statistics-of-fighters"><em>DnD Statistics of Fighters</em></a></li>
@@ -127,7 +125,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#trends-at-higher-levels-of-gameplay" id="toc-trends-at-higher-levels-of-gameplay" class="nav-link" data-scroll-target="#trends-at-higher-levels-of-gameplay"><em>Trends at Higher Levels of Gameplay</em></a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -136,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Statistics Visualization</h1>
+<h1 class="title">DnD 5e Statistics Visualization</h1>
 </div>
 
 
@@ -151,8 +148,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="dnd-5e-statistics-visualization" class="level1">
-<h1><strong>DnD 5e Statistics Visualization</strong></h1>
 <section id="interactive-data-visualizer" class="level2">
 <h2 class="anchored" data-anchor-id="interactive-data-visualizer">Interactive Data Visualizer</h2>
 <p>This is a data visualizer for the statistics of a sample of approximately 8,000 DnD 5e players’ characters. Select what kind of characters you wish to analyse data for by adjusting the settings on the panel on the left! You can also adjust some settings of the data visualization itself, such as whether you’d like to view a bar graph or histogram, or how sensitive the outlier detection should be!</p>
@@ -163,6 +158,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
 <p>Playing around with the interactive visualizer above, you can discover certain findings about the distribution of statistics for different DnD characters. For one, Fighters are by far the most popular class choice in the dataset with the highest observation count of 1144, making up almost 14% of the entire sample size.</p>
 <p>Let’s imagine, for example, that you are a new player looking to play as a Fighter in a level 5 campaign. In the visualizer settings, you can select only the Fighter Class, select ‘Show characters with only the selected classes’ and set both the minimum and maximum level to 5. You’ll notice that even with an IQR scaling factor of 3, no outliers are detected, so don’t worry about that setting.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.dndbeyond.com/classes/fighter"><img src="https://www.dndbeyond.com/avatars/thumbnails/6/359/420/618/636272697874197438.png" class="img-fluid figure-img" width="217"></a></p>
+<figcaption class="figure-caption">Source: https://www.dndbeyond.com/classes/fighter</figcaption>
+</figure>
+</div>
 <section id="dnd-statistics-of-fighters" class="level3">
 <h3 class="anchored" data-anchor-id="dnd-statistics-of-fighters"><em>DnD Statistics of Fighters</em></h3>
 <p>Now, let’s look at the statistics of this sample! Try switching between the different DnD stats. You will notice that different DnD statistics can have different distributions.</p>
@@ -194,7 +195,6 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://www.statisticshowto.com/multimodal-distribution/" class="uri">https://www.statisticshowto.com/multimodal-distribution/</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

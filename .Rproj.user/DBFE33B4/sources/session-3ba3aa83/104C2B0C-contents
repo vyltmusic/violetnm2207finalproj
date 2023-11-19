@@ -1,0 +1,21 @@
+---
+title: "Challenge-1"
+author: "Yang Juan Hun, A0255392Y"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, out.height= "525px",out.width= "350px",echo=FALSE,eval=TRUE,fig.cap="hellooo NV and TAs :))"} 
+knitr::include_graphics("DSC_2566.png")
+```
+
+```{r, out.height= "263px",out.width= "448px",echo=FALSE,eval=TRUE,fig.cap="my code :)"} 
+knitr::include_graphics("challenge-1-code.png")
+```
+

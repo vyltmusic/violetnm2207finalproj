@@ -1,0 +1,16 @@
+{
+  "hash": "20b3cbc930cda03460cf56caf32a4bfd",
+  "result": {
+    "markdown": "---\ntitle: \"Violet's Guide to DnD 5e Character Statistics\"\n---\n\n\nWelcome to Violet's Guide to DnD 5e Statistics.\n\nStay tuned for more updates!\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

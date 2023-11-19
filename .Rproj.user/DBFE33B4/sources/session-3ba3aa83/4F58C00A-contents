@@ -1,0 +1,145 @@
+---
+title: "test"
+author: "Yang Juan Hun"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(shiny)
+runExample("03_reactivity")
+runExample("01_hello")
+```
+
+```{r}
+runApp("App-DnD", display.mode = "showcase")
+runApp("App-DnD2", display.mode = "showcase")
+```
+
+```{r}
+library(tidyverse)
+library(dnddata)
+```
+
+class_test \<- c("Artificer", "Bard")
+
+dnd_chars_unique_edited %\>%
+
+select(class_test)
+
+```{r}
+unique(dnd_chars_unique$justClass)
+
+dnd_classes <- c("Artificer", "Barbarian", "Bard", "Blood Hunter", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
+
+
+dnd_chars_unique_edited <- dnd_chars_unique 
+for(i in dnd_classes){
+  dnd_chars_unique_edited <- dnd_chars_unique_edited %>%
+    mutate(newcol = grepl(i, dnd_chars_unique_edited$justClass))
+  x <- colnames(dnd_chars_unique_edited)
+  colnames(dnd_chars_unique_edited) <- c(x[1:(length(x)-1)], i)
+}
+head(dnd_chars_unique_edited[c(9,36:49)])
+
+
+dnd_chars_unique_edited <- dnd_chars_unique_edited 
+
+dnd_chars_unique[["Str"]] %>%
+  typeof()
+
+
+x <- dnd_chars_unique$justClass
+grepl(dnd_classes[2], x)
+
+
+typeof(dnd_chars_unique)
+
+test <- data.frame(c("a","b","c"))
+test
+
+colnames(test)
+
+
+filter(dnd_chars_unique_edited, "Artificer" == TRUE) %>%
+  head()
+
+ 
+colnames(dnd_chars_unique_edited)
+
+x[1:(length(x)-1)]
+
+length(x)
+
+colnames(dnd_chars_unique_edited) <- c(x[1:(length(x)-1)], "Alias")
+glimpse(dnd_chars_unique_edited)
+
+filter(dnd_chars_unique_edited, nchar(dnd_chars_unique$justClass) > 20)
+
+dnd_chars_unique %>%
+  select(processedRace, background, justClass, subclass, HP, AC, Str, Dex, Wis, Cha)
+
+
+if_any(.cols = contains('var'))
+dnd_chars_unique_edited[[input$class]]
+
+class_test <- c("Artificer", "Bard")
+awa <- dnd_chars_unique_edited %>%
+  select(class_test)
+
+dnd_chars_unique_edited %>%
+  mutate(selectedClass = if_any(.cols = class_test))
+
+
+j <- dnd_chars_unique_edited$HP
+    dnd_chars_unique_edited %>%
+      filter(HP > (quantile(j, 0.75) + 1.5 * (quantile(j, 0.75) - quantile(j, 0.25))))
+    
+    
+    paste("Frequency of ", "input$stat", " values between levels ","input$min_level"," and ","input$max_level"), sep="")
+length(unique(dnd_chars_unique_edited$HP))
+
+
+c(1,2) %in% c(4,2,5)
+
+dnd_classes <- c("Artificer", "Barbarian", "Bard", "Blood Hunter", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
+
+test <- c("Artificer", "Barbarian")
+
+colnames(dnd_chars_unique)
+
+unique(dnd_chars_unique$country)
+```
+
+
+```{r}
+dnd_classes <- c("Artificer", "Barbarian", "Bard", "Blood Hunter", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
+
+test <- c("Barbarian", "Sorcerer")
+i <- dnd_chars_unique_edited[8100,]
+i
+j <- i[dnd_classes] %>%
+  unlist()
+(any(dnd_classes[j] %in% test) & all(! dnd_classes[j] %in% (dnd_classes[! dnd_classes %in% test])))
+# 
+# 
+# filter(dnd_chars_unique_edited, nchar(na.omit(dnd_chars_unique_edited$justClass)) > 13)
+```
+
+
+```{r}
+dnd_stats <- c("Str", "Dex", "Con", "Int", "Wis", "Cha")
+
+
+  
+```
+
+```{r}
+runApp("App-DnD2", display.mode = "showcase")
+```
+
+
