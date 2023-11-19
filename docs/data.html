@@ -153,7 +153,8 @@ ul.task-list li input[type="checkbox"] {
 <p>This is a data visualizer for the statistics of a sample of approximately 8,000 DnD 5e players’ characters. Select what kind of characters you wish to analyse data for by adjusting the settings on the panel on the left! You can also adjust some settings of the data visualization itself, such as whether you’d like to view a bar graph or histogram, or how sensitive the outlier detection should be!</p>
 <p><iframe height="800" width="100%" frameborder="no" src="https://violetnm2207finalproj.shinyapps.io/App-DnD/" <="" p="">
 </iframe>
-</p></section>
+</p><p>(Data source: <a href="https://github.com/oganm/dnddata" class="uri">https://github.com/oganm/dnddata</a>)</p>
+</section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
 <p>Playing around with the interactive visualizer above, you can discover certain findings about the distribution of statistics for different DnD characters. For one, Fighters are by far the most popular class choice in the dataset with the highest observation count of 1144, making up almost 14% of the entire sample size.</p>
@@ -176,7 +177,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Here is a second data visualizer looking specifically at Fighters from the dataset, and how the means, medians and modes (see FAQ) of their six core ability scores compare to each other at varying tiers of gameplay. Gameplay tiers in DnD 5e are split into Tier 1 (levels 1 - 4), Tier 2 (levels 5 - 10), Tier 3 (levels 11 - 16) and Tier 4 (levels 17 - 20) due to the way DnD 5e gameplay progression is nonlinear.</p>
 <p><iframe height="800" width="100%" frameborder="no" src="https://violetnm2207finalproj.shinyapps.io/App-DnD2/" <="" p="">
 </iframe>
-</p><p>To analyse the context of a Fighter in a level 5 campaign, you can select ‘No’ for including multiclass fighters, select the ‘Median’ summary statistic (a more accurate summary statistic for skewed datasets) and then set the gameplay tier to ‘Tier 2’.</p>
+</p><p>(Data source: <a href="https://github.com/oganm/dnddata" class="uri">https://github.com/oganm/dnddata</a>)</p>
+<p>To analyse the context of a Fighter in a level 5 campaign, you can select ‘No’ for including multiclass fighters, select the ‘Median’ summary statistic (a more accurate summary statistic for skewed datasets) and then set the gameplay tier to ‘Tier 2’.</p>
 <p>From the generated bar graph, you can more clearly see that generally, fighters invest more into their Strength, Dexterity and Constitution (typically more combat-oriented statistics) than their Intelligence, Wisdom and Charisma (typically more roleplay-oriented statistics). This is not particularly surprising, and indeed it further supports the Fighter stereotype – at least for Tier 2, their Intelligence on average is their lowest ability score!</p>
 <p>What is even more interesting, however, is the comparison between the average Strength and Dexterity scores for Fighters. Strength is typically more invested in for character builds focused on close-range combat with melee weapons, whereas Dexterity is more invested in for character builds focused on long-distance combat with ranged weapons. These are two play-styles that, on paper, Fighters can be equally effective in. The data however suggests that Fighter players are biased towards close-quarters combat, as Tier 2 Fighters have a median Strength score of 18 and a median Dexterity score of 14. A new player torn between the two play-styles could thus take this data into consideration. Perhaps close-quarters Fighters are more popular because that sort of play-style is generally more fun!</p>
 </section>

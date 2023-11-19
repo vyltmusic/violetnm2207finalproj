@@ -10,6 +10,8 @@ This is a data visualizer for the statistics of a sample of approximately 8,000 
 
 </iframe>
 
+(Data source: <https://github.com/oganm/dnddata>)
+
 ## Discussion
 
 Playing around with the interactive visualizer above, you can discover certain findings about the distribution of statistics for different DnD characters. For one, Fighters are by far the most popular class choice in the dataset with the highest observation count of 1144, making up almost 14% of the entire sample size.
@@ -35,6 +37,8 @@ Here is a second data visualizer looking specifically at Fighters from the datas
 `<iframe height="800" width="100%" frameborder="no" src="https://violetnm2207finalproj.shinyapps.io/App-DnD2/"`{=html}
 
 </iframe>
+
+(Data source: <https://github.com/oganm/dnddata>)
 
 To analyse the context of a Fighter in a level 5 campaign, you can select 'No' for including multiclass fighters, select the 'Median' summary statistic (a more accurate summary statistic for skewed datasets) and then set the gameplay tier to 'Tier 2'.
 
